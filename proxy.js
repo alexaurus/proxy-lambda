@@ -4,4 +4,5 @@ const Responses = require("./Responses");
 
 exports.handler = async (event) => {
   return Responses._200();
+  //that's it
 };
